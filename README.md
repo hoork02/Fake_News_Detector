@@ -2,9 +2,28 @@
 
 A machine learning-based application to detect and classify news articles as **REAL** or **FAKE** using text classification techniques.
 
-## 🎯 Overview
+---
 
-This project uses natural language processing (NLP) and machine learning algorithms to analyze news content and determine its authenticity. The application features both a training pipeline and an interactive web interface for real-time predictions.
+## 🎯 Problem Statement
+
+Misinformation spreads at unprecedented speed across digital platforms, eroding public trust and enabling uninformed decision-making. Users lack an automated, scalable mechanism to verify news authenticity in real-time—manual fact-checking is time-consuming and inaccessible at scale.
+
+## 💡 Solution
+
+Built a production-ready NLP + ML pipeline that:
+- **Preprocesses** news content with advanced text cleaning (URL removal, stemming, stopword removal)
+- **Vectorizes** text into numerical features using TF-IDF (5000 features)
+- **Trains multiple classifiers** (Logistic Regression & Naive Bayes) to identify the best-performing model
+- **Deploys** as an interactive Streamlit web app for real-time classification with confidence scoring
+
+## 📊 Impact
+
+- **Real-Time Classification**: Users can instantly verify news articles without manual research
+- **High Accuracy**: Compares multiple ML models and selects the best performer
+- **Confidence Scoring**: Provides prediction confidence percentages for informed decision-making
+- **Scalable & Accessible**: Web interface enables non-technical users to combat misinformation at scale
+
+---
 
 ## ✨ Features
 
@@ -167,4 +186,4 @@ Contributions are welcome! Feel free to fork this repository and submit pull req
 
 ---
 
-**Note**: This detector is a machine learning model and should be used as a tool to assist in identifying potential misinformation, not as a definitive truth authority. Always verify information through multiple reliable sources.
+**Note**: This detector is a machine learning model and should be used as a tool to assist in identifying potential misinformation, not as a definitive truth authority. Always verify information through multiple trusted sources.
